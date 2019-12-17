@@ -5,7 +5,6 @@ class Account
 
   def initialize(balance = DEFAULT_BALANCE)
     @balance = balance
-    @account_history = History.new
   end
 
   def deposit(value)

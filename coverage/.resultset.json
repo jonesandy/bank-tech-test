@@ -25,6 +25,7 @@
         null,
         null,
         null,
+        null,
         null
       ],
       "/Users/andrewjones/dev/bank-tech-test/lib/account.rb": [
@@ -79,13 +80,15 @@
         1,
         null,
         1,
+        null,
         1,
         1,
         1,
         null,
+        null,
         null
       ]
     },
-    "timestamp": 1576594834
+    "timestamp": 1576597165
   }
 }

@@ -11,7 +11,7 @@ describe Account do
     it 'should have balance of 1000' do
       expect(@account.balance).to eq(1000)
     end
-    
+
   end
 
   context 'making a withdrawal' do
@@ -21,4 +21,5 @@ describe Account do
     end
 
   end
+
 end
