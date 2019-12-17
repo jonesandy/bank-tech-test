@@ -4,9 +4,9 @@ class Transaction
 
   def initialize(credit, debit, balance)
     @transaction = [Time.new.strftime("%d/%m/%Y"),
-    credit,
-    debit, 
-    balance]
+     credit,
+     debit, 
+     balance]
   end
 
 end

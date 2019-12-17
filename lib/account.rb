@@ -12,13 +12,13 @@ class Account
 
   def deposit(value)
     increase_balance(value)
-    transaction = Transaction.new(value, "", @balance)
+    transaction = Transaction.new(value, 0, @balance)
     @ledger.add_transaction(transaction)
   end
 
   def withdrawal(value)
     decrease_balance(value)
-    transaction = Transaction.new("", value, @balance)
+    transaction = Transaction.new(0, value, @balance)
     @ledger.add_transaction(transaction)
   end
 
