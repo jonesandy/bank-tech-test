@@ -29,6 +29,8 @@
       ],
       "/Users/andrewjones/dev/bank-tech-test/lib/account.rb": [
         1,
+        null,
+        1,
         1,
         null,
         1,
@@ -58,8 +60,32 @@
         null,
         null,
         null
+      ],
+      "/Users/andrewjones/dev/bank-tech-test/lib/transaction.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/andrewjones/dev/bank-tech-test/spec/transaction_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1576592854
+    "timestamp": 1576594834
   }
 }

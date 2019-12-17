@@ -1,3 +1,5 @@
+require_relative 'transaction'
+
 class Account
   DEFAULT_BALANCE = 0
 
@@ -7,6 +9,7 @@ class Account
 
   def deposit(value)
     increase_balance(value)
+    transaction = Transaction.new(value, "", @balance)
   end
 
   def withdrawal(value)
@@ -26,5 +29,5 @@ class Account
   def decrease_balance(value)
     @balance -= value
   end
-  
+
 end
