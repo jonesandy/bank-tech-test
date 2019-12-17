@@ -9,6 +9,10 @@ class Account
     increase_balance(value)
   end
 
+  def withdrawal(value)
+    decrease_balance(value)
+  end
+
   def balance
     @balance
   end
@@ -19,4 +23,8 @@ class Account
     @balance += value
   end
 
+  def decrease_balance(value)
+    @balance -= value
+  end
+  
 end
