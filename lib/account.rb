@@ -1,6 +1,5 @@
 require_relative 'transaction'
 require_relative 'ledger'
-require_relative 'display'
 
 class Account
   DEFAULT_BALANCE = 0
@@ -12,13 +11,13 @@ class Account
 
   def deposit(value)
     increase_balance(value)
-    transaction = Transaction.new(value, 0, @balance)
+    transaction = Transaction.new(value, "", @balance)
     @ledger.add_transaction(transaction)
   end
 
   def withdrawal(value)
     decrease_balance(value)
-    transaction = Transaction.new(0, value, @balance)
+    transaction = Transaction.new("", value, @balance)
     @ledger.add_transaction(transaction)
   end
 

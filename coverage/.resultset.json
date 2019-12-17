@@ -87,6 +87,8 @@
         1,
         null,
         1,
+        null,
+        1,
         4,
         null,
         null,
@@ -103,6 +105,10 @@
       "/Users/andrewjones/dev/bank-tech-test/lib/display.rb": [
         1,
         null,
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ],
@@ -111,7 +117,20 @@
         null,
         1,
         null,
+        2,
+        null,
+        null,
+        2,
+        null,
+        null,
+        null,
         1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null
@@ -152,6 +171,6 @@
         null
       ]
     },
-    "timestamp": 1576608363
+    "timestamp": 1576609918
   }
 }
