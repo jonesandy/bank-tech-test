@@ -5,11 +5,11 @@ class Account
 
   def initialize(balance = DEFAULT_BALANCE)
     @balance = balance
+    @account_history = History.new
   end
 
   def deposit(value)
     increase_balance(value)
-    transaction = Transaction.new(value, "", @balance)
   end
 
   def withdrawal(value)
